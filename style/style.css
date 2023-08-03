@@ -342,4 +342,8 @@ body{
    .home-content h1{
       font-size: 2.5em;
    }
+
+   .home-sci{
+      bottom: 40px;
+   }
 }
