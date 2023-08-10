@@ -254,6 +254,11 @@ body{
    }
 }
 
+@media (max-width: 700px) {
+   .home-content p{
+      font-size: 1.10em;
+   }
+}
 @media (max-width: 460px) {
    body{
       font-size: 12px;
@@ -261,7 +266,6 @@ body{
 
    .home-content{
       margin-top: 0;
-      font-size: 1.10em;
    }
 
    .home-content h3{
