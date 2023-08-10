@@ -20,10 +20,7 @@ body{
 }
 
 .header{
-   position: fixed;
    flex-direction: column;
-   top: 0;
-   left: 0;
    width: 100%;
    padding: 20px 10%;
    background: transparent;
@@ -91,7 +88,7 @@ body{
 
 .home{
    display: flex;
-   align-items: center;
+   flex-direction: column;
 
    background: url('/images/bg.png') no-repeat center;
    background-size: cover;
@@ -101,7 +98,11 @@ body{
 }
 
 .home-content{
+   gap: 52px;
+   margin-top: 191px;
    max-width: 600px;
+   display: flex;
+   flex-direction: column;
 }
 
 .home-content h1{
@@ -239,7 +240,6 @@ body{
    justify-content: space-between;
    align-items: center;
 
-   position: absolute;
    bottom: 100px;
    width: 280px;
 }
@@ -339,11 +339,32 @@ body{
       font-size: 12px;
    }
 
-   .home-content h1{
+   .home-content{
+      margin-top: 86px;
+   }
+
+   .home-text h1{
       font-size: 2.5em;
+   }
+
+   .home-content h3{
+      font-size: 1.8em;
    }
 
    .home-sci{
       bottom: 40px;
    }
+
+   .home{
+      height: 85vh;
+   }
+
+   
+}
+
+@media (max-height: 800px) {
+   .home-content{
+      margin-top: 80px;
+   }
+
 }
