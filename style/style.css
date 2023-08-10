@@ -334,13 +334,14 @@ body{
       width: 0;
 }}
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
    body{
       font-size: 12px;
    }
 
    .home-content{
-      margin-top: 86px;
+      margin-top: 40px;
+      gap: 29px;
    }
 
    .home-text h1{
@@ -364,7 +365,7 @@ body{
 
 @media (max-height: 800px) {
    .home-content{
-      margin-top: 80px;
+      margin-top: 50px;
    }
 
 }
