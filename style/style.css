@@ -339,6 +339,10 @@ body{
       font-size: 12px;
    }
 
+   .home{
+      background: none;
+   }
+
    .home-content{
       margin-top: 40px;
       gap: 29px;
