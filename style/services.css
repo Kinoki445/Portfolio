@@ -115,6 +115,7 @@ body {
     margin-bottom: 100px;
     width: 518px;
     margin-right: 30px;
+    justify-content: space-between;
 }
 
 .intro {
