@@ -176,6 +176,34 @@ body {
     animation: showRigth 1s ease forwards;
     animation-delay: 1.2s;
 }
+.intro3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: #2c3039;
+
+    width: 100%;
+    height: 100%;
+
+    animation: showRigth 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.intro4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: #2c3039;
+
+    width: 100%;
+    height: 100%;
+
+    animation: showRigth 1s ease forwards;
+    animation-delay: 1.2s;
+}
 
 .home-content h3 {
     position: relative;
